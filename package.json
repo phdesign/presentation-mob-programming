@@ -1,0 +1,12 @@
+{
+  "name": "presentation-mob-programming",
+  "version": "1.0.0",
+  "description": "A presentation on mob programming",
+  "main": "src/scripts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "Paul Heasley <paul.heasley@gmail.com>",
+  "license": "MIT"
+}
