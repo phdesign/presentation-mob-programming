@@ -19,7 +19,7 @@ module.exports = {
     preLoaders: [
       {
         test: /\.js$/,
-        loader: "eslint-loader",
+        loader: 'eslint-loader',
         exclude: /node_modules/
       }
     ],
@@ -39,29 +39,34 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif)$/,
-        loader: 'url?limit=8192'
+        loader: 'url?limit=8192&context=src&name=[path][name].[ext]'
       },
       {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "url?limit=10000&mimetype=application/font-woff"
+        loader: 'url?limit=10000&mimetype=application/font-woff&context=src&name=[path][name].[ext]'
       },
       {
         test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "url?limit=10000&mimetype=application/font-woff"
+        loader: "url?limit=10000&mimetype=application/font-woff&context=src&name=[path][name].[ext]"
       },
       {
         test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "url?limit=10000&mimetype=application/octet-stream"
+        loader: "url?limit=10000&mimetype=application/octet-stream&context=src&name=[path][name].[ext]"
       },
       {
         test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "file"
+        loader: "file?context=src&name=[path][name].[ext]"
       },
       {
         test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
-        loader: "url?limit=10000&mimetype=image/svg+xml"
+        loader: "url?limit=10000&mimetype=image/svg+xml&context=src&name=[path][name].[ext]"
       }
     ]
+  },
+  resolve: {
+    alias: {
+      styles: path.join(__dirname, '/src/styles/')
+    }
   },
   devServer: {
     stats: { colors: true },
