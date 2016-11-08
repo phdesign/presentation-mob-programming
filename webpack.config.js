@@ -82,6 +82,7 @@ module.exports = {
     new webpack.optimize.DedupePlugin(),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+    //new webpack.optimize.UglifyJsPlugin()
   ]
 };

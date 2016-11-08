@@ -2,11 +2,9 @@
 
 ## Intro and history
 
-Around 5 years ago a development team at Hunter Industries in San Diego who were busy expanding their agile, TDD and peer programming techniques stumbled across a way of working together that later became known as mob programming. This technique continued to gain traction until now it's practiced world wide as an effective team development process with a dedicated mob programming conference held in Boston.
+Around 5 years ago a development team at Hunter Industries in San Diego who were busy expanding their agile, TDD and peer programming techniques discovered a way of working together that later became known as mob programming. The team were holding a solution design workshop in a meeting room and at some stage someone remoted back into their PC and they started writing code together while talking over the problem. Eventually they were kicked out of that room but found another and continued to carry on, and in this way they continued to jump between meeting rooms for the next 2 weeks, programming as a team and everyday holding a mini retrospective and agreeing that this process is working for them and they should keep doing it.
 
-In the next 10 -15 minutes, or whenever Lars kicks me off stage, we're going to explore the world of mob programming, dispelling some illusions and hopefully give you an appetite to try it with your team. Assuming you are part of a team. If you're a freelancer you may want to sit this one out.
-
-So back to our team zero, who are holding a solution design workshop in a meeting room and at some stage someone remotes back into their PC and they start writing code together while talking over the problem. Eventually they get kicked out of that room but find another and carry on, and in this way they continue to jump between meeting rooms for the next 2 weeks, programming as a team and everyday holding a mini retrospective and agreeing that this process is working for them and they should keep doing it.
+This technique continued to gain traction until now it's practiced world wide as an effective team development process with a dedicated mob programming conference held in Boston.
 
 ## The mechanics
 
