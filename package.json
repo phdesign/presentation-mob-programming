@@ -5,7 +5,7 @@
   "main": "src/scripts/index.js",
   "scripts": {
     "start": "webpack",
-    "serve": "webpack && static dist"
+    "serve": "webpack-dev-server"
   },
   "author": "Paul Heasley <paul.heasley@gmail.com>",
   "license": "MIT",
