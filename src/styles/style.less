@@ -148,33 +148,36 @@ article {
   &.fade-dark.bespoke-backdrop-active {
     opacity: 0.2;
   }
+  &.fade-darker.bespoke-backdrop-active {
+    opacity: 0.1;
+  }
   &.cover {
     background-size: cover;
   }
-  &.rugby-scrum {
-    background-image: url('../images/rugby-scrum.jpg');
+  &.rally-driver {
+    background-image: url('../images/rally-driver.png');
   }
-  &.shuhari {
-    background-image: url('../images/shu-ha-ri.jpg');
+  &.a-day-of {
+    background-image: url('../images/a-day-of.png');
   } 
-  &.agile-umbrella {
-    background-image: url('../images/agileumbrella.png');
-    top: 20%;
-    left: 20%;
-    right: 20%;
-    bottom: 20%;
-  } 
-  &.lego-devs {
-    background-image: url('../images/lego-devs.jpg');
-    background-position: 0% 80%;
-  }
-  &.lego-sparkle {
-    background-image: url('../images/lego-sparkle.jpg');
-    background-position: 0% 80%;
-  }
-  &.lego-sheriff-back {
-    background-image: url('../images/lego-sheriff-back.jpg');
-  }
+  //&.agile-umbrella {
+    //background-image: url('../images/agileumbrella.png');
+    //top: 20%;
+    //left: 20%;
+    //right: 20%;
+    //bottom: 20%;
+  //} 
+  //&.lego-devs {
+    //background-image: url('../images/lego-devs.jpg');
+    //background-position: 0% 80%;
+  //}
+  //&.lego-sparkle {
+    //background-image: url('../images/lego-sparkle.jpg');
+    //background-position: 0% 80%;
+  //}
+  //&.lego-sheriff-back {
+    //background-image: url('../images/lego-sheriff-back.jpg');
+  //}
 }
 .bespoke-backdrop-inactive {
   opacity: 0;
@@ -339,14 +342,21 @@ b {
 
 // Elements
 
-.me {
-  background-image: url("../images/me.jpg");
+.profile-pic {
   background-size: 100%;
   width: 220px;
   height: 220px;
   border-radius: 160px;
   margin: (@font_size_base * 0.5) 0;
   opacity: 0.95;
+}
+.me {
+  background-image: url("../images/me.jpg");
+}
+.woody {
+  background-image: url("../images/woody-zuill.jpg");
+  background-size: 80%;
+  background-position: 20px 0;
 }
 .pageup-logo {
   width: 202px;
