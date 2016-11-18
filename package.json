@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack",
     "serve": "webpack-dev-server",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm start && gh-pages -d dist"
   },
   "author": "Paul Heasley <paul.heasley@gmail.com>",
   "license": "MIT",
