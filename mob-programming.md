@@ -36,7 +36,7 @@ It improves team cohesion. Mob programming necessitates that the team communicat
 
 #### Upskilling
 
-It upskills existing team members as they learn new patterns, new architectures, new ways of thinking and tips to move around the IDE quicker. I find the first thing a new mobbing team learns is each other's shortcuts. Nothing bothers a developer more than watching someone else fumble through menus when there's a snappy keyboard shortcut to complete the task.
+Mobbing encourage learning. It upskills existing team members as they learn new patterns, new architectures, new ways of thinking and tips to move around the IDE quicker. I find the first thing a new mobbing team learns is each other's shortcuts. Nothing bothers a developer more than watching someone else fumble through menus when there's a snappy keyboard shortcut to complete the task.
 
 #### Quality control
 
