@@ -1,18 +1,22 @@
 # Two's company, three's a mob
 
-## Intro and history
+## Intro
 
-Around 5 years ago a development team at Hunter Industries in San Diego who were busy expanding their agile, TDD and peer programming techniques discovered a way of working together that later became known as mob programming. The team were holding a solution design workshop in a meeting room and at some stage someone remoted back into their PC and they started writing code together while talking over the problem. Eventually they were kicked out of that room but found another and continued to carry on, and in this way they continued to jump between meeting rooms for the next 2 weeks, programming as a team and everyday holding a mini retrospective and agreeing that this process was working for them and they should keep doing it.
+Mob programming. You may have heard of it before, it's been talked about in blogs and conferences a lot but it sounds a little bit crazy right, the whole team working together on one story at a time. I mean, it's pair programming gone mad. Well lets have a look at why many teams around the world are using it and I'll share with you some of my experience. But first lets start with a little history.
 
-This technique continued to gain traction until now it's practiced world wide as an effective team development process with a dedicated mob programming conference held in Boston.
+## History
+
+Around 5 years ago a development team at Hunter Industries in San Diego who were trying to improve their agile, TDD and peer programming techniques were holding a solution design workshop in a meeting room when someone remoted back into their PC and they started writing code together while talking over the problem. Eventually they were kicked out of that room but found another and continued to carry on, and in this way they continued to jump between meeting rooms for the next 2 weeks, programming as a team and everyday holding a mini retrospective and agreeing that this process was working for them and they should keep doing it.
+
+This technique continued to gain traction until now it's practiced world wide as an effective team development process called mob programming and has a dedicated conference held in Boston.
 
 ## The mechanics
 
+So how does it work? Simply put the whole team sit in front of a large tv or projector (or 2) and take turns passing control of the keyboard and mouse around while working together to solve the problem at hand.
+
 #### Driver / Navigator model
 
-So how does it work? Simply put the whole team sit in front of a large tv or projector and take turns passing control of the keyboard and mouse around while working together to solve the problem at hand.
-
-This constant moving of the keyboard is key to an effective mobbing session, it follows the driver / navigator model borrowed from strong pair programming which says "For an idea to go from your head into the computer it must go through someone else's hands." In mob programming there is one driver and the rest of the team are navigators. The driver sits behind the keyboard and types code. The navigators discuss the idea being coded and guide the driver in creating the code. This concept is critical to engagement of the team, if the driver starts thinking too much and typing their own ideas they'll leave the others behind, but having to clearly explain to the driver what to type, the navigators have to communicate and discuss the solution out loud. The driver is effectively taking a rest from thinking. Drivers are rotated on a short interval, this could be 5, 10 or 15 minutes. Shorter works better when starting out.
+This constant moving of the keyboard is key to an effective mobbing session, it follows the driver / navigator model borrowed from strong pair programming which says "For an idea to go from your head into the computer it must go through someone else's hands." In mob programming there is one driver and the rest of the team are navigators. The driver sits behind the keyboard and types code, but that's all they're supposed to do, they're discouraged from thinking how to solve the problem too much and they shouldn't be typing anything without being directed to by a navigator. The navigators discuss the idea being coded and guide the driver in creating the code. This concept is critical to engagement of the team, if the driver starts thinking too much and typing their own ideas they'll leave the others behind, but having to clearly explain to the driver what to type, the navigators have to communicate and discuss the solution out loud. Drivers are rotated on a short interval, this could be 5, 10 or 15 minutes. Shorter works better when starting out.
 
 #### Equipment setup
 
@@ -28,11 +32,11 @@ If someone gets interrupted by an email, phone call or a walk up, some teams wil
 
 ## The benefits
 
-Mob programming offers a number of benefits over lone ranger development or pairing. 
+So why mob?
 
 #### Team cohesion & redundancy
 
-It improves team cohesion. Mob programming necessitates that the team communicate effectively to get things done. This ensures that everyone in the team is across the current code and creates redundancy in the team. If one team member is off sick it will have little impact on the output. If a new team member is added they will be able to contribute immediately and will quickly learn from the others without distraction. 
+Well firstly it improves team cohesion. Mob programming necessitates that the team communicate effectively to get things done. This ensures that everyone in the team is across the current code and creates redundancy in the team. If one team member is off sick it will have little impact on the output. If a new team member is added they will be able to contribute immediately and will quickly learn from the others without distraction. 
 
 #### Upskilling
 
